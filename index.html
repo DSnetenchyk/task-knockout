@@ -11,6 +11,14 @@
 
 		<div class="list">
 			<h2>Список литературы:</h2>
+
+			<ul data-bind="foreach: list">
+				<li>
+					<span data-bind="text: id"></span>
+					<span data-bind="text: name"></span>
+					<input type="checkbox" data-bind="checked: $root.chklist" />
+				</li>
+			</ul>
 		</div>	
 
 		<div class="send">

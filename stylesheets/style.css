@@ -12,7 +12,7 @@ h2 {
 }
 
 .wrapper {
-	width: 700px;
+	width: 1000px;
 	height: 500px;
 }
 
@@ -24,4 +24,8 @@ h2 {
 .send {
 	float: right;
 	width: 50%;
+}
+
+input {
+	float: right;
 }
