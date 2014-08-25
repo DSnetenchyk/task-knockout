@@ -23,9 +23,25 @@ h2 {
 
 .send {
 	float: right;
-	width: 50%;
+	width: 48%;
 }
 
-input {
+ul {
+	list-style-image: url(../assets/images/adobe-icon.png);
+}
+
+.list input {
 	float: right;
+}
+
+.send p {
+	line-height: 0;
+}
+
+.send input {
+	width: 250px;
+}
+
+#bigtext {
+	height: 100px;
 }
